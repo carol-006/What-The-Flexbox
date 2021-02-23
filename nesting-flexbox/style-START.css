@@ -39,5 +39,26 @@ a:hover {
   list-style: none;
   margin: 0;
   padding: 0; 
+  display: flex;
+}
+
+.slider-nav li {
+  flex: 2;
+  display: flex;
+}
+.slider-nav a {
+  flex: 1;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+.slider-nav span{
+  text-align: center;
+}
+.slider-nav .arrow {
+  flex: 1;
+}
+.slider-nav .arrow a {
+  font-size: 40px;
 }
 
